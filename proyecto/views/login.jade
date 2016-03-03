@@ -1,0 +1,6 @@
+extends ./layout.jade
+block contenido
+	h1 login con nodejs
+	form(action="/users", method="POST")
+		label(for="email") Email
+		input(type="text" , name="email", placeholder= "ingrese su email", id="email")
